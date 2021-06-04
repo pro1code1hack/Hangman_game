@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
-// Включаемый файл, созданный в Microsoft Visual C++.
-// Используется Resource.rc
+// Г‚ГЄГ«ГѕГ·Г ГҐГ¬Г»Г© ГґГ Г©Г«, Г±Г®Г§Г¤Г Г­Г­Г»Г© Гў Microsoft Visual C++.
+// Г€Г±ГЇГ®Г«ГјГ§ГіГҐГІГ±Гї Resource.rc
 //
 #define IDC_CURSOR1                     101
 #define IDC_CURSOR2                     102
@@ -54,8 +54,7 @@
 #define ID_40018                        40018
 #define ID_40019                        40019
 #define SHRIFT                          40021
-#define Teacher                         40022
-#define TEACHER                         40023
+
 
 // Next default values for new objects
 // 

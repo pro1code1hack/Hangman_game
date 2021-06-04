@@ -1,0 +1,334 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Нейтральный (по умолчанию) (неизвестное значение дополнительного кода языка: 0x8) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ZZZ)
+LANGUAGE LANG_NEUTRAL, 0x8
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "cursor1.cur"
+
+IDC_CURSOR2             CURSOR                  "C:\\Users\\Hacking\\Downloads\\Telegram Desktop\\CURSOR3 (2).cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 103
+//
+
+ICON                    103                     "C:\\Users\\Hacking\\Downloads\\Telegram Desktop\\Nature~1.ico"
+
+IDI_ICON2               103                     "C:\\Users\\Hacking\\Downloads\\Telegram Desktop\\Icon_131.ico"
+
+IDI_ICON1               103                     "petlya.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    MENUITEM "Вихід",                       EXIT
+    MENUITEM "Автор",                       AUTHOR
+    MENUITEM "Правила \t (SPACE)",          RULES
+    MENUITEM "Таблиця результатів",         RESULTS
+    MENUITEM "Початок гри \t (TAB)",        START
+    MENUITEM "Викладач",                    TEACHER
+END
+
+IDR_MENU2 MENU
+BEGIN
+    POPUP "Опции"
+    BEGIN
+        MENUITEM "Поменять фон экрана",         FON
+        MENUITEM SEPARATOR
+        MENUITEM "Поменять шрифты",             SHRIFT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 518, 231
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 12, "MS Shell Dlg", 400, 1, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Exit",MYOK,484,220,33,10
+    CONTROL         IDB_BITMAP1,IDC_STATIC,"Static",SS_BITMAP,4,0,181,230
+    CONTROL         TASK,IDC_STATIC,"Static",SS_BITMAP,199,38,310,179,WS_EX_STATICEDGE
+    LTEXT           "Виконав студент групи 1БС-20Б",IDC_STATIC,305,2,116,10
+    LTEXT           "Дремлюга Єгор Сергійович",IDC_STATIC,311,14,90,8
+    LTEXT           "Гра ""Шибениця""",IDC_STATIC,329,26,58,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 355, 198
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Autentification"
+FONT 8, "Microsoft Tai Le", 700, 0, 0x0
+BEGIN
+    EDITTEXT        LOGIN,236,47,117,22,ES_AUTOHSCROLL
+    EDITTEXT        PSW,237,89,116,21,ES_AUTOHSCROLL
+    LTEXT           "Login",IDC_STATIC,283,33,18,8
+    LTEXT           "Password",IDC_STATIC,275,76,32,8
+    PUSHBUTTON      "Clear",CLEAR,246,125,81,13
+    PUSHBUTTON      "Enter",YES,246,143,81,13
+    PUSHBUTTON      "REG",B_REG,245,159,81,13
+    CONTROL         IDB_BITMAP2,IDC_STATIC,"Static",SS_BITMAP,0,0,201,194
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 305, 126
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "Comic Sans MS", 400, 0, 0xCC
+BEGIN
+    DEFPUSHBUTTON   "Вперед",VPERED,129,98,50,14
+    LTEXT           "Слово має бути іменником загальною назвою, у називному відмінку однини , або множини . Гравець пропонує літеру, що може входити в це слово , якщо така літера є , то другий гравець пише її над відповідними рисками, стільки - скільки разів вона зустрічається. Грати потрібно з зажатою клавішею CAPS LOCK та RUS розкладкою клавіатури. Автор : Дремлюга Єгор Сергійович. Студент групи 1БС-20Б . 2021 рік",IDC_STATIC,19,28,271,52
+    LTEXT           "Правила гри!",IDC_STATIC,133,16,43,8
+    LTEXT           "Спробуйте свої сили!",IDC_STATIC,120,84,68,8
+END
+
+IDD_DIALOG4 DIALOGEX 500, 500, 287, 218
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         IDC_CURSOR2,photo_chel,"Static",SS_BITMAP | WS_GROUP,7,7,117,212
+    LTEXT           "                               УПС!",IDC_STATIC,133,33,135,8
+    LTEXT           "                  СПРОБУЙТЕ ЩЕ РАЗ!",IDC_STATIC,133,54,135,8
+    LTEXT           "Вперше варіант цієї гри згадується в книзі дитячих ігор , зібраній Alice Gomme в 1984 році. У цій версії гри бракує повішеної людини, а замість цього ведеться лише рахунок за кількістю спроб кожного гравця при відгадуванні словаю ",IDC_STATIC,134,81,146,63
+    DEFPUSHBUTTON   "OK",CLS,142,169,124,14
+    DEFPUSHBUTTON   "EXIT",CLS2,142,183,124,14
+END
+
+IDD_DIALOG5 DIALOGEX 0, 0, 413, 215
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 12, "Arial Narrow", 400, 1, 0xCC
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,356,194,50,14
+    CONTROL         IDB_BITMAP4,photo_chel,"Static",SS_BITMAP | WS_GROUP,33,37,160,128
+    LTEXT           "                   Інформація про викладача",IDC_STATIC,259,21,135,8
+    LTEXT           "2008-зараз   Кафедра захисту інформації Вінницького національного технічного університету (старший викладач) ",IDC_STATIC,259,52,139,31
+    LTEXT           "Каплун Валентина Аполінаріївна",IDC_STATIC,259,36,126,8
+    LTEXT           "2002-2008\tКафедра захисту інформації Вінницького національного технічного університету (асистент)",IDC_STATIC,259,85,141,31
+    LTEXT           "1991-1998\tКафедра математики Вінницького політехнічного інституту , Вінницького національного технічного університету (асистент)",IDC_STATIC,259,121,139,35
+    LTEXT           "Найкращий вчитель та куратор                        групи 1БС-20Б",IDC_STATIC,259,168,122,19
+END
+
+IDD_DIALOG6 DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,198,155,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,252,155,50,14
+    LISTBOX         IDC_LIST1,42,47,234,100,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Login",IDC_STATIC,48,35,18,8
+    LTEXT           "Paswword",IDC_STATIC,100,35,35,8
+    LTEXT           "Count",IDC_STATIC,167,35,26,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        RIGHTMARGIN, 353
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 298
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 406
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG3 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG4 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG5 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG6 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+FACE                    BITMAP                  "C:\\Users\\Hacking\\Desktop\\my_fce.bmp"
+
+TASK                    BITMAP                  "C:\\Users\\Hacking\\Desktop\\Task_bmp.bmp"
+
+Chelovechek             BITMAP                  "C:\\Users\\Hacking\\Desktop\\chelovechek.bmp"
+
+IDB_BITMAP2             BITMAP                  "C:\\Users\\Hacking\\Desktop\\reeg.bmp"
+
+IDB_BITMAP3             BITMAP                  "C:\\Users\\Hacking\\Desktop\\regs.bmp"
+
+IDB_BITMAP4             BITMAP                  "C:\\Users\\Hacking\\Desktop\\VA.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR2 ACCELERATORS
+BEGIN
+    VK_TAB,         START,                  VIRTKEY, NOINVERT
+    VK_SPACE,       RULES,                  VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE1               WAVE                    "Mortal Kombat - Maine Theme (Original).wav"
+
+#endif    // Нейтральный (по умолчанию) (неизвестное значение дополнительного кода языка: 0x8) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
